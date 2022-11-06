@@ -1,3 +1,27 @@
+1npm install vue
+2npm install vue-router@4
+3 install composer
+4 install php
+5  xamp 
+6 iniciar un Proyecto de larabel 
+composer create-project laravel/laravel  Laravel_api
+
+7 cambiar el nombre de la bd y poner contrase;a
+8 php artisan make:controller ContactController 
+9 borramos el rout de la carpeta api y agregamos 
+Asegurarse de meter los using
+Route::get('contacts',[App\Http\Controller\ContactController::class,'contacts']);
+
+10 php artisan make:model Contact 
+
+11 php artisan make:migration create_[nombre]_table 
+
+12 npm i axios   front 
+
+13composer require laravel/sanctum
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
